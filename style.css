@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: skyblue;
+}
+
+.header{
+    background-image: url(header.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+nav img{
+    width: 60px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: -3px;
+}
+
+.navlinks li{
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 8%;
+    
+}
+
+nav a{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    padding-bottom: 8%;
+    margin: 8px;
+}
+
+.welcome p{
+    color: black; 
+    text-align: center;
+    font-size: x-large;
+    padding: 3%;
+}
+
+footer{
+    color: red;
+    text-align: center;
+    padding: 5%;
+    font-size: larger;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 2px;
+}
